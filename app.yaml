@@ -1,0 +1,10 @@
+runtime: nodejs18
+
+env_variables:
+  INSTANCE_UNIX_SOCKET: /cloudsql/happy-vet:asia-southeast2:capstone
+  DB_USER: 'root'
+  DB_PASS: 'capstone'
+  DB_NAME: 'happyvet'
+  DB_PORT: '3306'
+  INSTANCE_HOST: '34.101.89.114'
+  GOOGLE_APPLICATION_CREDENTIALS: 'key.json'
